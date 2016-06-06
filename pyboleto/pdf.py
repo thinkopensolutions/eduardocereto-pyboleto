@@ -515,7 +515,7 @@ class BoletoPDF(object):
         self.pdfCanvas.drawString(
             0,
             y + self.deltaTitle,
-            'Instruções'
+            'Instruções (Texto de responsabilidade do cedente)'
         )
 
         self.pdfCanvas.setFont('Helvetica', self.fontSizeValue)
